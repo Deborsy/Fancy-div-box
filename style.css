@@ -1,0 +1,52 @@
+/* Custom div contact box start */
+.bo{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.bo::after{
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-image: conic-gradient(transparent,transparent,transparent, #ffd000);
+    animation: animate 4s linear infinite;
+    animation-delay: -2s;
+}
+.bo::before{
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-image: conic-gradient(transparent,transparent,transparent, #00ccff);
+    animation: animate 4s linear infinite;
+}
+@keyframes animate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.bo span{
+    position: absolute;
+    inset: 5px;
+    border-radius: 16px;
+    background: #0c1022;
+    z-index: 1;
+}
+.bo .form-group{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    padding: 20px;
+    line-height: 30px;
+}
+/*Custom div contact box end */
