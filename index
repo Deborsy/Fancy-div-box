@@ -1,0 +1,13 @@
+<div class="bo animated slideInRight delay-5s">
+    <span></span>
+    <form action="">
+      <div class="form-group">
+          <h2 class="display-5 m-3">Contact Us</h2>
+          <input type="text" class="form-control m-2" placeholder="Enter Name">
+          <input type="email" class="form-control m-2" placeholder="Enter Email">
+          <input type="number" class="form-control m-2" placeholder="Enter Mobile Number">
+          <textarea class="form-control m-2" id="" cols="30" rows="4" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn-warning ">Submit</button>
+       </div>
+     </form>
+</div>
